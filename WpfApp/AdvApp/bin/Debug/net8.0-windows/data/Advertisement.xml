@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfAdvertisement xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Advertisement>
+    <PathId>1</PathId>
+    <PathName>Молоко</PathName>
+    <LenPath>15</LenPath>
+    <PathDays>1</PathDays>
+    <PathPay>400</PathPay>
+  </Advertisement>
+  <Advertisement>
+    <PathId>2</PathId>
+    <PathName>Хлеб</PathName>
+    <LenPath>40</LenPath>
+    <PathDays>1</PathDays>
+    <PathPay>600</PathPay>
+  </Advertisement>
+  <Advertisement>
+    <PathId>3</PathId>
+    <PathName>Арбузы</PathName>
+    <LenPath>80</LenPath>
+    <PathDays>1</PathDays>
+    <PathPay>800</PathPay>
+  </Advertisement>
+  <Advertisement>
+    <PathId>4</PathId>
+    <PathName>Углеволокно</PathName>
+    <LenPath>4000</LenPath>
+    <PathDays>10</PathDays>
+    <PathPay>350000</PathPay>
+  </Advertisement>
+</ArrayOfAdvertisement>

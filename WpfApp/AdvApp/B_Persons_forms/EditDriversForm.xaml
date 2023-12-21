@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window x:Class="AdvApp.Show_forms.EditShowForm" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Title="Изменить Водителя" Height="450" Width="400" ResizeMode="NoResize">
+    <FrameworkElement.Resources>
+        <ResourceDictionary>
+            <Style x:Key="LabelStyle" TargetType="{x:Type Label}">
+                <Setter Property="FontSize" Value="14" />
+                <Setter Property="Margin" Value="0,10,0,0" />
+                <Setter Property="Foreground" Value="#FF000000" />
+            </Style>
+
+            <Style x:Key="TextBoxStyle" TargetType="{x:Type TextBox}">
+                <Setter Property="FontSize" Value="14" />
+                <Setter Property="Margin" Value="0,0,0,10" />
+                <Setter Property="Background" Value="#FFFCF6" />
+                <Setter Property="Foreground" Value="#FF000000" />
+            </Style>
+
+            <Style x:Key="ButtonStyle" TargetType="{x:Type Button}">
+                <Setter Property="FontSize" Value="14" />
+                <Setter Property="Margin" Value="0,20,0,0" />
+                <Setter Property="Padding" Value="10,5" />
+                <Setter Property="Background" Value="#E0A9AF" />
+                <Setter Property="Foreground" Value="#FFFFFFFF" />
+            </Style>
+        </ResourceDictionary>
+    </FrameworkElement.Resources>
+
+    <StackPanel Width="360" HorizontalAlignment="Center" VerticalAlignment="Center">
+        <Label Content="Код водителя" Style="{StaticResource LabelStyle}" />
+        <TextBox Name="DriveIdTextBox" Style="{StaticResource TextBoxStyle}" />
+        <Label Content="Имя" Style="{StaticResource LabelStyle}" />
+        <TextBox Name="FirstNameTextBox" Style="{StaticResource TextBoxStyle}" />
+        <Label Content="Фамилия" Style="{StaticResource LabelStyle}" />
+        <TextBox Name="SecondNameTextBox" Style="{StaticResource TextBoxStyle}" />
+        <Label Content="Отчество" Style="{StaticResource LabelStyle}" />
+        <TextBox Name="ThirdNameTextBox" Style="{StaticResource TextBoxStyle}" />
+        <Label Content="Стаж" Style="{StaticResource LabelStyle}" />
+        <TextBox Name="ExperTextBox" Style="{StaticResource TextBoxStyle}" />
+        <Button Content="Сохранить изменения" Style="{StaticResource ButtonStyle}" Click="SaveButton_Click" />
+    </StackPanel>
+</Window>

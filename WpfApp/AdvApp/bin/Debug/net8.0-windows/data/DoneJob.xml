@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfDoneJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DoneJob>
+    <PathId>0</PathId>
+    <DriveId1>0</DriveId1>
+    <DriveId2>0</DriveId2>
+    <StartPath>21.12.2023</StartPath>
+    <EndPath>21.12.2023</EndPath>
+    <Pay>0</Pay>
+    <UpPay>0</UpPay>
+  </DoneJob>
+  <DoneJob>
+    <PathId>1</PathId>
+    <DriveId1>1</DriveId1>
+    <DriveId2>0</DriveId2>
+    <StartPath>21.12.2023</StartPath>
+    <EndPath>21.12.2023</EndPath>
+    <Pay>400</Pay>
+    <UpPay>50</UpPay>
+  </DoneJob>
+  <DoneJob>
+    <PathId>2</PathId>
+    <DriveId1>2</DriveId1>
+    <DriveId2>3</DriveId2>
+    <StartPath>21.12.2023</StartPath>
+    <EndPath>21.12.2023</EndPath>
+    <Pay>600</Pay>
+    <UpPay>200</UpPay>
+  </DoneJob>
+  <DoneJob>
+    <PathId>3</PathId>
+    <DriveId1>3</DriveId1>
+    <DriveId2>0</DriveId2>
+    <StartPath>11.12.2023</StartPath>
+    <EndPath>21.12.2023</EndPath>
+    <Pay>350000</Pay>
+    <UpPay>150000</UpPay>
+  </DoneJob>
+</ArrayOfDoneJob>

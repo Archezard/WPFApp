@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfDrivers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Drivers>
+    <DriveId>1</DriveId>
+    <FirstName>Иван</FirstName>
+    <SecondName>Иванов</SecondName>
+    <ThirdName>Иванович</ThirdName>
+    <Exper>1</Exper>
+  </Drivers>
+  <Drivers>
+    <DriveId>2</DriveId>
+    <FirstName>Олег</FirstName>
+    <SecondName>Олегов</SecondName>
+    <ThirdName>Олегович</ThirdName>
+    <Exper>2</Exper>
+  </Drivers>
+  <Drivers>
+    <DriveId>3</DriveId>
+    <FirstName>Николай</FirstName>
+    <SecondName>Николаев</SecondName>
+    <ThirdName>Николаевич</ThirdName>
+    <Exper>3</Exper>
+  </Drivers>
+</ArrayOfDrivers>
